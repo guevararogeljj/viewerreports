@@ -91,14 +91,21 @@
         >
       </li>
     </ul>
+    <div>
+      <ReportDesignerComponent />
+    </div>
   </div>
 </template>
 
 <script>
+import ReportDesignerComponent from "./ReportDesignerComponent.vue";
 export default {
   name: "HelloWorld",
   props: {
     msg: String,
+  },
+  components: {
+    ReportDesignerComponent,
   },
 };
 </script>

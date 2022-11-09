@@ -2,5 +2,11 @@ import { createApp } from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-
+import "jquery-ui/themes/base/all.css";
+import "devextreme/dist/css/dx.light.css";
+import "@devexpress/analytics-core/dist/css/dx-analytics.common.css";
+import "@devexpress/analytics-core/dist/css/dx-analytics.light.css";
+import "@devexpress/analytics-core/dist/css/dx-querybuilder.css";
+import "devexpress-reporting/dist/css/dx-webdocumentviewer.css";
+import "devexpress-reporting/dist/css/dx-reportdesigner.css";
 createApp(App).use(store).use(router).mount("#app");
